@@ -12,11 +12,13 @@ using namespace std;
 
 int main()
 {
-    const double levelRate = 1.5;
+    // Definitions for each variable.
+    const double levelRate = 1.5;   // Rate at which the ocean levels rise each year.
     int years5 = 5;
     int years7 = 7;
     int years10 = 10;
 
+    // Calculations for the ocean levels for each given time period based on the given rate of change. 
     double riseIn5Years = levelRate * years5;
     double riseIn7Years = levelRate * years7;
     double riseIn10Years = levelRate * years10;
